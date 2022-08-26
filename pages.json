@@ -1,0 +1,59 @@
+{
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/login/login",
+		// 	"name": "login",
+		// 	"meta": {
+		// 		"title": "登录页"
+		// 	},
+		// 	"style": {
+		// 		"navigationStyle": "custom",
+		// 		"navigationBarTitleText": "uni-app",
+		// 		"app-plus": {
+		// 			// 将回弹属性关掉
+		// 			"bounce": "none"
+		// 		}
+		// 	}
+		// }, 
+		{
+			"path": "pages/index/index",
+			"name": "index",
+			"meta": {
+				"title": "首页"
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "uni-app",
+				"app-plus": {
+					// 将回弹属性关掉
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"name": "login",
+			"meta": {
+				"title": "登录页"
+			},
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "uni-app",
+				"app-plus": {
+					// 将回弹属性关掉
+					"bounce": "none"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
